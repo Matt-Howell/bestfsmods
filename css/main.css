@@ -1,0 +1,36 @@
+html{height:100%}
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background-color:#ebebeb;-webkit-border-radius:0px;border-radius:0px}
+::-webkit-scrollbar-thumb{-webkit-border-radius:0px;border-radius:0px;background:#6d6d6d}
+#more{display:none}
+#cse{width:100%;font-family:'Open Sans',sans-serif;margin:10px}
+.center{justify-content:center;align-self:center;align-content:center;align-items:center;text-align:center;display:flex}
+*,:before,:after{box-sizing:border-box;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+body,button,input,optgroup,select,textarea{line-height:1.5}
+a{display:contents;text-decoration:none;font-family:'Open Sans',sans-serif}
+a > *{cursor:pointer}
+#instagram2:hover{opacity:.7}
+#twitter2:hover{opacity:.7}
+#instagram2{background:#d6249f;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285AEB 90%);color:#fff;padding:20px;font-size:30px;text-align:center;text-decoration:none;align-items:center;justify-content:center}
+#twitter2{background:#55ACEE;color:#fff;padding:20px;font-size:30px;text-align:center;text-decoration:none;align-items:center;justify-content:center}
+#header{position:relative}
+@media (min-width: 720px){#header{position:-webkit-sticky;position:sticky;top:0}}
+@media (max-width: 468px) {
+#logoresp{zoom:.8;width:350px}
+#resp-front-txt{font-size: .5rem;}
+#respImg{margin: 0px; zoom: .8;}}
+@media (max-width: 575px){#suggForYou{flex-direction: column;}}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Open Sans',sans-serif}
+.feather{width:16px;height:16px;vertical-align:text-bottom}
+@media screen and (max-width: 1000px) {
+#mainnavsidebar{width: 0;}
+#nav-bel-img{display: none;}}
+.sidebar-heading{font-size:.75rem;text-transform:uppercase}
+@media screen and (min-width: 768.98px){#main-card-33{width:100%}}
+#noTxtDec{text-decoration: none;color: #212529;}
+.adNative{justify-content: center; align-self: center; align-content: center; align-items: center; text-align: center; margin: auto;}
+#center{justify-content: center; align-self: center; align-content: center; align-items: center; text-align: center; margin: auto;}
+input.invalid{background-color: #ffdddd;}
+.signup-success{margin:10px;display:flex;align-items:flex-start;justify-content:flex-start;font-family:'Open Sans',sans-serif;font-size:18px;line-height:16px;letter-spacing:0;text-align:left;text-transform:none;color:rgba(3,3,3,1);padding:2px;width:100%;color:green}
+.signup-error{margin:10px;display:flex;align-items:center;justify-content:center;font-family:'Open Sans',sans-serif;font-size:18px;line-height:16px;letter-spacing:0;text-align:left;text-transform:none;color:rgba(3,3,3,1);padding:2px;width:100%;color:red;width:100%}

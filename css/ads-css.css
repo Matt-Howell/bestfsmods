@@ -1,0 +1,7 @@
+@media (max-width: 721px) {
+    #AdHeader970{display: none;}
+}
+
+@media (min-width: 720.98px) {
+    #responsiveAdHeader{display: none;}
+}
